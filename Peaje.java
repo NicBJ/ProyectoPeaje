@@ -60,7 +60,8 @@ do {
 	 System.out.println("2 : Acceder al turno 2: ");
 	 System.out.println("3 : Acceder al turno 3: ");
 	 System.out.println("4 : Finalizar programa**");
-	 Scanner teclado = new Scanner(System.in);
+	int opc=Integer.parseInt(JOptionPane.showInputDialog("¿CUAL TURNO QUIERE VER?:"));
+	 //Scanner teclado = new Scanner(System.in);
 	 opc = teclado.nextInt();
 	 
 	switch (opc) {
