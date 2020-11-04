@@ -7,7 +7,7 @@ public class Cabina {
 	
 		//Creamos un objeto peaje para enviar los parámetros iniciales 
 		Peaje peaje1 = new Peaje();
-									//enviamos como parámetro la dirrecion del archivo requerido 
+		//enviamos como parámetro la dirrecion del archivo requerido 
 		ArrayList<Peaje> ListaTodos =  peaje1.CapturaTXT("C:\\camion1.txt");
 		
 		int opc=0; 
