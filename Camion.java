@@ -1,14 +1,12 @@
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.util.ArrayList;
+//Estructura , atributos y metodos que tendrá el Objeto Camión 
 
 public class Camion {
+	//Atributos principales 
 	private int ejes;
     private int toneladas;
     private String marca; 
    
-
+    //Constructor de Camion , y su constructor vacío 
     public Camion(int ejes, int toneladas, String marca) {
 		
 		this.ejes = ejes;
@@ -19,6 +17,7 @@ public class Camion {
 	public Camion() {
 		
 	}
+	//Metodos utilis como get y set . 
 	public int getEjes() {
 		return ejes;
 	}
