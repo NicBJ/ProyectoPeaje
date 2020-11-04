@@ -1,0 +1,10 @@
+kia;2;23;1
+chevrolet;1;32;1
+Scania;3;54;2
+Daf Trucks;4;32;1
+Man;3;44;3
+Mercedes Benz;1;14;2
+Iveco;3;12;2
+Volvo;2;42;1
+Renault;1;15;2
+Isuzu;4;22;1
