@@ -90,7 +90,7 @@ do {  //Menu
 		opcion1 = teclado1.nextInt();
 		if(opcion1 == 1) {
 			//Impresion en pantalla de la suma total recaudado en el turno 1 
-			System.out.println("\n    Recaudacion Turno 2:  "+SumaTotal);
+			System.out.println("\n    Recaudacion Turno 1:  "+SumaTotal);
 		}else {
 			if(opcion1 == 2) {
 				System.out.println();
