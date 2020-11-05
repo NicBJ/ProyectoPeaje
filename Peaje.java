@@ -49,8 +49,8 @@ public class Peaje extends Camion {
     		}
     	}
 		//Box mensaje , se usa para mostrar al inicio los camiones con sus peajes registrados . 
-		JOptionPane.showMessageDialog(null,"***PEAJE DE CAMIONES***\n\n   EJES DEL CAMION: "+ejes
-	               +"\n   PESO EN TONELADAS: "+toneladas+"\n   PAGO TOTAL: "+PagoTotal); // concatenamos los resultados
+		//JOptionPane.showMessageDialog(null,"***PEAJE DE CAMIONES***\n\n   EJES DEL CAMION: "+ejes
+	      //         +"\n   PESO EN TONELADAS: "+toneladas+"\n   PAGO TOTAL: "+PagoTotal); // concatenamos los resultados
 		return PagoTotal; 
 		
 	}
@@ -93,15 +93,18 @@ do {  //Menu
 			System.out.println("\n    Recaudacion Turno 1:  "+SumaTotal);
 		}else {
 			if(opcion1 == 2) {
-				System.out.println();
+				System.out.println("Recaudacion total : "+SumaTotal);
+				int tempTotal=SumaTotal; 
+				
 				SumaTotal = 0; 
+				
 				//Si se cierra el turno , se asigna la Suma total = 0 
 			}
 		}
 		
 	}while(opcion1 != 2);
 		
-		System.out.println("\n    Recaudacion Turno 1:  "+SumaTotal);
+		//System.out.println("\n    Recaudacion Turno 1:  "+SumaTotal);
 	break;
 		//Se repite el proceso con cada turno restante ( 2 y 3 ) 
 	case 2: 
@@ -127,7 +130,7 @@ do {  //Menu
 			System.out.println("\n    Recaudacion Turno 2:  "+SumaTotal2);
 		}else {
 			if(opcion2 == 2) {
-				System.out.println();
+				System.out.println("Recaudacion total :"+SumaTotal2);
 				SumaTotal2 = 0; 
 			}
 		}
@@ -157,7 +160,7 @@ do {  //Menu
 			System.out.println("\n    Recaudacion Turno 3:  "+SumaTotal3);
 		}else {
 			if(opcion == 2) {
-				System.out.println();
+				System.out.println("Recaudacion Total :" +SumaTotal3);
 				SumaTotal3 = 0; 
 			}
 		}
@@ -260,3 +263,4 @@ return 0;
 	
 		
 	}
+
